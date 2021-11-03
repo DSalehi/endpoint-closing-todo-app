@@ -24,6 +24,10 @@ function TodoListItem({
         id={`list-item-${id}`}
         sx={{
           display: "flex",
+          flexDirection: {
+            xs: "column",
+            sm: "row"
+          },
           justifyContent: "space-between",
           alignItems: "center",
           gap: "10px",

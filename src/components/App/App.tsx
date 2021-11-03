@@ -49,7 +49,10 @@ function App() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "70vh",
+            minHeight: {
+              xs: "105vh",
+              sm: "70vh"
+            },
           }}
         >
           <TodoList todos={todos} setTodos={setTodos} />
