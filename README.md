@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+# Getting Started with Endpoint Todo List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to run
 
-## Available Scripts
+First, you'll need to install the dependencies by running:
+
+### `npm install`
+
+Then, you can run the project by running:
+
+### `npm run start`
+
+# General Project Scripts
 
 In the project directory, you can run:
 
